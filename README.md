@@ -2,7 +2,7 @@
 
 ## Beschreibung
 
-Diese Simulation enthält eine Museumswelt mit einem großen Raum für die autonome Navigation eines TurtleBot3.
+Diese Simulation enthält eine Museumswelt mit einem großen Raum für die autonome Navigation eines TurtleBot4.
 
 Das Museum wurde in Sweet Home 3D erstellt, in Blender bearbeitet und als COLLADA-Modell (`museum.dae`) für Gazebo exportiert.
 
@@ -29,7 +29,7 @@ Vorgesehene Startkoordinaten:
 - Y: -1.7835 m
 - Yaw: 0.0 rad
 
-Die Z-Koordinate muss passend zum verwendeten TurtleBot3-Modell bestimmt werden.
+Die Z-Koordinate muss passend zum verwendeten TurtleBot4-Modell bestimmt werden.
 
 Die Werte sind zusätzlich in `config/spawn_positions.yaml` dokumentiert.
 
@@ -59,7 +59,7 @@ Die Integration des TurtleBot3, seiner Sensoren, der ROS-Gazebo-Bridge, SLAM und
 
 ## Noch zu testen
 
-- TurtleBot3 in der Museumswelt spawnen
+- TurtleBot4 in der Museumswelt spawnen
 - Tatsächliche Roboter-Startposition überprüfen
 - LiDAR und Kamera testen
 - Navigation mit SLAM und Nav2 testen
