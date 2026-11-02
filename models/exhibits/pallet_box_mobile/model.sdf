@@ -63,19 +63,9 @@
         <pose>0 0 0.644 0 0 0</pose>
         <geometry>
           <box>
-            <size>1.22 0.8 1</size>
-          </box>
+            <size>1.22 0.8 1</size>          </box>
         </geometry>
       </collision>
-      <visual name='pallet_visual'>
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <scale>1 1 1</scale>
-            <uri>https://fuel.ignitionrobotics.org/1.0/MovAi/models/pallet/tip/files/meshes/pallet.dae</uri>
-          </mesh>
-        </geometry>
-      </visual>
       <visual name='boxes_visual'>
         <pose>-0.053875 0 0 0 0 0</pose>
         <geometry>
