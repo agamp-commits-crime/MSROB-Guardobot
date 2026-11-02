@@ -1,0 +1,8 @@
+robot_spawn:
+  x: 3.5933
+  y: -1.7835
+  yaw: 0.0
+
+  # Diese Werte müssen nach der Auswahl
+  # einer freien Position angepasst werden.
+  # z wird vom Robotermodell abhängig festgelegt.
