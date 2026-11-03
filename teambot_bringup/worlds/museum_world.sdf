@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <world name="museum_world">
+
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics"/>
+
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands"/>
+
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster"/>
+
+    <gravity>0 0 -9.81</gravity>
+
+    <include>
+      <uri>model://museum</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+<!-- Erstes Museumsausstellungsstück -->
+<include>
+  <uri>model://Pot01</uri>
+  <name>museum_vase_01</name>
+  <pose>4.3 3.3 0.3 0 0 0</pose>
+</include>
+
+<!-- Zweites  Museumsausstellungsstück -->
+<include>
+  <uri>model://Pot02</uri>
+  <name>museum_vase_02</name>
+  <pose>-2.5 2.9 0.3 0 0 0</pose>
+</include>
+
+<!-- drittes Museumsausstellungsstück -->
+<include>
+  <uri>model://pallet_box_mobile</uri>
+  <name>PalletBox01</name>
+  <pose>-2.4221 -2.4862 0.3 0 0 0</pose>
+</include>
+
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+  </world>
+</sdf>
